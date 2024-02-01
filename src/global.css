@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: sans-serif;
+  }
+  @font-face {
+    font-family: "Pacifico";
+    src: url("./assets/fonts/Pacifico.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Courgette";
+    src: url("./assets/fonts/Courgette.ttf") format("truetype");
+  }
+}
+
+@layer components {
+  .button {
+    @apply mt-5 bg-transparent border border-white/15 w-full py-2 flex items-center
+    gap-2 justify-center relative hover:border-orange duration-500 ease-in-out;
+  }
+  .button::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: #a37238;
+    transition: width 0.4s ease-in-out;
+    left: 0;
+  }
+
+  .button:hover::before {
+    width: 100%;
+  }
+}
+
+@layer utilities {
+  .padding {
+    @apply px-10;
+  }
+}
