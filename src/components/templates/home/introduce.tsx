@@ -10,12 +10,12 @@ const Introduce = () => {
     >
       <div className="flex gap-5 md:gap-8">
         <img
-          className="lg:w-[18rem] lg:h-[30rem] w-[10rem] h-[18rem] object-cover lg:mt-10"
+          className="lg:w-[18rem] lg:h-[30rem] w-[8rem] h-[18rem] object-cover lg:mt-10"
           src={misc1}
           alt="misc"
         />
         <img
-          className="lg:w-[18rem] lg:h-[30rem] w-[10rem] h-[18rem] object-cover"
+          className="lg:w-[18rem] lg:h-[30rem] w-[8rem] h-[18rem] object-cover"
           src={misc2}
           alt="misc"
         />

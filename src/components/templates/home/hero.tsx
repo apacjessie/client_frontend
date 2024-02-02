@@ -12,7 +12,7 @@ const Hero = () => {
       className="w-screen h-screen text-white flex items-center "
     >
       <div className=" lg:w-[40%] padding space-y-4">
-        <h1 className="text-[64px] font-bold leading-tight">
+        <h1 className="text-4xl md:text-[54px] xl:text-[64px] font-bold leading-tight">
           Enjoy Your Dream Vacation
         </h1>
         <p className="tracking-wide text-lg font-[500]">

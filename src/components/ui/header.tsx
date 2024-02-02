@@ -7,7 +7,7 @@ const Header = () => {
   const { setShowMenu } = useMenu();
   return (
     <header
-      className="fixed inset-0 top-0 text-white p-16 py-5 h-fit
+      className="fixed inset-0 top-0 text-white p-10 md:p-16 py-5 h-fit
     flex justify-between z-[999]"
     >
       <Link to="/">
