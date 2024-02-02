@@ -26,10 +26,12 @@ const Card = ({
           26th - 28th Feb 2024
         </span>
         <div className="flex-1 flex items-center justify-center flex-col">
-          <span className="z-50 text-3xl font-bold tracking-wider mb-5">
+          <span className="z-50 text-2xl md:text-3xl font-bold tracking-wider mb-5">
             {title}
           </span>
-          <p className="font-[300] text-xl px-10 leading-relaxed">{desc}</p>
+          <p className="font-[300] text-lg md:text-xl px-10 leading-relaxed">
+            {desc}
+          </p>
         </div>
 
         <span className="tracking-[.8em] uppercase font-bold">{type}</span>
@@ -46,7 +48,7 @@ const Card = ({
 const OfferGrid = () => {
   return (
     <section
-      className="grid lg:grid-cols-3 grid-rows-[repeat(3,_25rem)] grid-cols-[25rem] lg:grid-rows-[28rem] gap-10 px-40
+      className="grid lg:grid-cols-3 grid-rows-[repeat(3,_22rem)] grid-cols-[20rem] lg:grid-rows-[28rem] gap-10 lg:px-40
     mt-20 lg:mt-0"
     >
       <Card

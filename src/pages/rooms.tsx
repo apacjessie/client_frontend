@@ -10,7 +10,7 @@ const Rooms = () => {
         backgroundAttachment: "fixed",
       }}
       className="w-screen  flex items-center justify-center flex-col
-      py-52 lg:py-36 relative"
+      py-40 pb-10 lg:py-36 relative"
     >
       <div className="fixed bg-black/50 w-screen h-screen inset-0" />
       <h1

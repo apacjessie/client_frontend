@@ -87,7 +87,7 @@ const Card = ({
 
 const RoomGrid = () => {
   return (
-    <section className="grid lg:grid-cols-2 lg:grid-rows-2 px-24 lg:px-32 gap-8">
+    <section className="grid lg:grid-cols-2 lg:grid-rows-2 px-10 lg:px-32 gap-8">
       {rooms.map((room) => (
         <Card
           title={room.title}

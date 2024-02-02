@@ -29,7 +29,7 @@ const Card = ({
         <span className="text-lg font-bold uppercase tracking-wider leading-loose">
           {title}
         </span>
-        <p className="font-[300] tracking-wide">{desc}</p>
+        <p className="font-[300] tracking-wide line-clamp-4">{desc}</p>
         <button type="button" className="button group">
           <span className="z-50 m-auto flex">
             BOOK NOW FOR ${price}
@@ -52,7 +52,7 @@ const Rooms = () => {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
-      className=" text-white w-screen lg:h-screen flex flex-col px-12 lg:px-40 py-10 lg:py-0 items-center justify-center"
+      className=" text-white w-screen lg:h-screen flex flex-col px-10 lg:px-40 py-10 lg:py-0 items-center justify-center"
     >
       <h2 className="text-3xl font-bold mt-8 lg:mt-0 tracking-wide">
         Our Rooms

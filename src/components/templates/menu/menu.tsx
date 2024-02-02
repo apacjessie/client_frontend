@@ -28,14 +28,14 @@ const Menu = () => {
     flex items-center justify-center flex-col  transition duration-700`}
     >
       <X
-        className="fixed top-5 right-16 text-white w-12 h-12 cursor-pointer
+        className="fixed top-5 right-10 md:right-16 text-white w-12 h-12 cursor-pointer
        hover:text-orange duration-500 ease-in-out"
         onClick={() => setShowMenu((prev) => !prev)}
       />
       <img src={logo} alt="seaside" className="mb-16" />
       <nav
         className="flex flex-col gap-8
-     text-white text-6xl font-[500] tacking-wider uppercase text-center"
+     text-white text-4xl md:text-6xl font-[500] tacking-wider uppercase text-center"
       >
         {nav.map((link, index) => (
           <NavLink
